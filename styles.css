@@ -1,0 +1,404 @@
+/* reset */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* MAIN STYLING */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+
+}
+
+/* utility classes */ 
+
+
+.text_primary{
+    color:red ;
+}
+
+.lead{
+    font-size: 30px;
+    margin: 20px 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(253, 6, 6);
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color:red;
+    color: #333;
+}
+
+.btn-light{
+    background: #222;
+    color: rgb(255, 7, 7);
+    font-weight: bold;
+}
+
+   .container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+} 
+
+.bg_dark{
+    background: #333;
+    color: #fff;
+}
+
+.bg_light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg_primary{
+    color: #f4f4f4;
+    background:#212121;
+}
+
+.clr{
+    clear: both;
+}
+
+.l_heading{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+/* padding */
+.py-1 {padding: 10px 0;}
+.py-2 {padding: 20px 0;}
+.py-3 {padding: 30px 0;}
+
+
+/* NAVBAR */
+
+#navbar .logo:hover{
+    color: red;
+    font-size: 30px;
+}
+
+
+
+
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+    
+}
+
+#navbar ul{
+    list-style: none;
+    float:right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,#navbar ul li a.current{
+    background: #444;
+    color: red;
+
+}
+
+
+
+/* SHOWCASE */
+
+#showcase{
+    background: url('https://cdn.pixabay.com/photo/2020/05/09/09/13/house-5148865__480.jpg')no-repeat center center/cover;
+    height: 600px;
+    /* filter: brightness(50%); */
+
+}
+
+#showcase .showcase_content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+    
+}
+
+
+.heading{
+    font-size: 60px;
+}
+
+.lead{
+    line-height: 1.7;
+}
+
+#showcase .showacase_content h1{
+    font-size: 80px;
+    line-height: 1.2rem;
+   
+}
+
+#showcase .showacase_content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+  
+}
+
+
+
+/* home_info */
+
+
+#home_info{
+     height: 450px; 
+}
+
+#home_info .info_img{
+    float: left;
+    width: 50%;
+    background: url('https://cdn.pixabay.com/photo/2016/08/29/20/52/los-angeles-1629161__480.jpg')no-repeat;
+    min-height: 100%;
+    
+  
+
+}
+
+ #home_info .info_content{
+    float: right;
+    width: 50%;
+    height: 100%;  
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+} 
+
+#home_info .info_content p{
+    padding-bottom: 30px;
+}
+
+
+
+/* features Sections */
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+.bg_change:hover{
+  background: #444;
+  color: #ddd;
+}
+
+ .normal{
+    background: rgb(26, 25, 25);
+    color: #ddd;
+}
+
+.normal:hover{
+    color: #f4f4f4;
+    background:#444;
+
+} 
+
+/* ABOUT INFO */
+
+#about_info .info_right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+
+}
+
+#about_info .info_right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+#about_info .info_left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+
+
+
+/* TESTIMONIALS */
+
+
+#about_info{
+    background-color: #222;
+}
+
+#about_info p {
+    color: #ddd;
+
+}
+
+
+#testimonials{
+    height: 100%;
+    background: url('https://cdn.pixabay.com/photo/2018/10/13/13/01/corridor-3744201__480.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+
+}
+
+#testimonials h2{
+    color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial{
+  padding: 20px;
+  margin-bottom: 40px;
+border-radius: 5px;
+opacity: 0.9;
+
+}
+
+
+
+#testimonials .testimonial img{
+    width: 100px;
+    height: 90px;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+
+/* contact forms */
+
+
+
+
+#contact_form .form_group{
+    margin-bottom: 20px;
+    
+
+}
+
+#contact_form label{
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+
+}
+
+#contact_form input,
+#contact_form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(94, 91, 91, 0.89);
+    background: #212121;
+}
+
+#contact_form textarea{
+    height: 200px;
+}
+
+#contact_form input, #contact_form textarea:focus{
+    outline: none;
+    border-color: rgb(102, 100, 100);
+}
+
+
+#contact_form{
+    background-color: #222;
+}
+
+
+#contact_form .container p{
+    color:#ddd;
+   
+}
+
+
+#contact_info{
+    background-color: #333;
+    margin: 0;
+}
+
+
+
+#contact_info p{
+    font-weight: bold;}
+
+
+#contact_info .container .center{
+    border-right:#111 dotted 2px ;
+    border-left:#111 dotted 2px ;
+}
+
+
+
+
+
+/* FOOTER */
+
+#main_footer{
+    text-align: center;
+    background: #222;
+    color: #f4f4f4;
+    font-weight: bold;
+    
+}
+
+#main_footer p{
+    margin: 0%;
+}
+
+
